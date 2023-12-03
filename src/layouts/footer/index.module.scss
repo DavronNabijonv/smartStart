@@ -2,22 +2,22 @@
 
 .footer {
   width: 100%;
-  padding: 50px;
+  padding: 3vw;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  gap: 3.8rem;
+  gap: 4vw;
   background: #202020;
   .container {
     display: flex;
     align-items: flex-start;
     justify-content: center;
-    gap: 2rem;
+    gap: 2vw;
     .f1 {
       display: flex;
       flex-direction: column;
-      gap: 0.5rem;
+      gap: 0.5vw;
       width: 10vw;
       .main {
         color: #fff;
@@ -46,7 +46,7 @@
     flex-direction: column;
     align-items: flex-start;
     justify-content: center;
-    gap: 1rem;
+    gap: 1vw;
     .main {
       color: #fff;
       font-family: var(--fontjura);
@@ -58,9 +58,9 @@
     .withicon {
       display: flex;
       align-items: center;
-      gap: 0.5rem;
+      gap: 0.5vw;
       .prgs2 {
-        width: 253.277px;
+        width: 16vw;
         color: #898989;
         font-family: var(--fontjura);
         font-size: 1vw;
@@ -79,11 +79,11 @@
       display: flex;
       align-items: center;
       justify-content: flex-start;
-      gap: 1.5rem;
+      gap: 1.5vw;
       svg {
-        padding: 10px;
-        width: 45px;
-        height: 44px;
+        padding: 0.5vw;
+        width: 2.5vw;
+        height: 2.5vw;
         flex-shrink: 0;
         background: #fff;
         border-radius: 50%;
@@ -99,7 +99,7 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    gap: 1rem;
+    gap: 2vw;
     hr {
       width: 80vw;
       opacity: 0.7;
@@ -111,7 +111,7 @@
       color: #fff;
       text-align: center;
       font-family: sans-serif;
-      font-size: 24px;
+      font-size: 1.5vw;
       font-style: normal;
       font-weight: 300;
       line-height: normal;
